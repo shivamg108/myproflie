@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.resume-container {
+    width: 800px;
+    height: 1010px;
+    border: 1px solid #ffff ;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+div .content p{
+    margin-left: 30px;
+}
+.header {
+    height: 120px;
+    border-bottom: 1px solid #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between; /* text left, image right */
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.footer {
+    height: 100px;
+    border-top: 1px solid #000;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 0px 20px;
+}
+
+.text{
+    font-size:20px ;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.text1{
+    margin-left:42px;
+}
+span{
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+table.t1 {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+table.t1 th, table.t1 td {
+    border: 1px solid #000;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.t1 th {
+    background-color: #f2f2f2;
+}
+
+div .footer p{
+    margin-left: 30px;
+}
+
+button, input[type="button"] {
+    margin: auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media print {
+    button {
+        display: none;
+    }
+}
